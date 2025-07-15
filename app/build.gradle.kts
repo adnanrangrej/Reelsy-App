@@ -49,6 +49,11 @@ kotlin {
     jvmToolchain(17)
 }
 
+repositories {
+    google()       // For Android dependencies
+    mavenCentral() // General dependencies
+}
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
