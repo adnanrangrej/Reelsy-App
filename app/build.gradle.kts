@@ -85,6 +85,10 @@ dependencies {
     // Paging
     implementation(libs.androidx.paging.compose)
 
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.kotlinx.serialization)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
